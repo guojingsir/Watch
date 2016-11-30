@@ -1,0 +1,247 @@
+
+<!-- 顶部导航条开始 -->
+<nav class="navbar navbar-inverse navbar-static-top">
+	<!-- 内部容器开始 -->		
+	<div class="container top">
+		<div class="row">
+			<div class="col-xs-6">
+				<!-- 导航头部开始 -->
+				<div class="navbar-header">
+					<!-- 响应式的菜单按钮开始 -->
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navMenu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- 响应式的菜单按钮结束 -->
+				</div>
+				<!-- 导航头部结束 -->
+				<!-- 导航菜单开始 -->
+				<div id="navMenu" class="collapse navbar-collapse">
+					<!-- 菜单列表开始 -->
+					<ul class="nav navbar-nav">
+						<li class=""><a href="#">菜单1</a></li>
+						<li><a href="#">菜单2</a></li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown">
+								菜单3
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">新闻</a></li>
+								<li><a href="#">股票</a></li>
+								<li><a href="#">体育</a></li>
+								<li><a href="#">游戏</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- 菜单列表结束 -->
+
+					<!-- 普通文本开始 -->
+					<p class="navbar-text">
+						当前用户：
+						<a href="#" class="navbar-link" id="name">rose</a>
+						<a href="#" class="navbar-link name-btn">退出登录</a>
+					</p>
+					<!-- 普通文本结束 -->		
+				</div>
+				<!-- 导航菜单结束 -->
+				
+			</div>
+			<div class="col-xs-6">
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-6 che-box">
+						<a href="连接购物框网页" class="navbar-right">
+							<span class="simpleCart_total">$0.00</span>
+							<img src="images/cart-1.png" alt="">
+						</a>
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-6">
+						<p>
+							<a href="javascript:;" class="simpleCart_empty navbar-right empty">Empty Cart
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	<!-- 内部容器结束 -->
+</nav>	
+<!-- 顶部导航条结束 -->
+<!-- logo开始 -->
+<div class="logo">
+	<a href="index.html">
+		<h1>Luxury Watches</h1>
+	</a>
+</div>
+<!-- logo结束 -->
+<!-- 头部最后导航条开始 -->
+<div class="header-bottom" id="header">
+	<div class="container">
+		<div class="header">
+			<div class="col-md-9 header-left">
+			<div class="top-nav">
+				<ul class="memenu skyblue">	
+					<li class="grid" style="">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="grid" style="">
+						<a href="#">Men</a>
+						<div class="mepanel" style="display:none;opacity: 1;">
+							<div class="row">
+								<div class="col1 me-one">
+									<h4>Shop</h4>
+									<ul>
+										<li><a href="products.html">New Arrivals</a></li>
+										<li><a href="products.html">Blazers</a></li>
+										<li><a href="products.html">Swem Wear</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Handbags</a></li>
+										<li><a href="products.html">T-Shirts</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">My Shopping Bag</a></li>
+									</ul>
+								</div>
+								<div class="col1 me-one">
+									<h4>Style Zone</h4>
+									<ul>
+										<li><a href="products.html">Shoes</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">Brands</a></li>
+										<li><a href="products.html">Coats</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Trousers</a></li>
+									</ul>	
+								</div>
+								<div class="col1 me-one">
+									<h4>Popular Brands</h4>
+									<ul>
+										<li><a href="products.html">499 Store</a></li>
+										<li><a href="products.html">Fastrack</a></li>
+										<li><a href="products.html">Casio</a></li>
+										<li><a href="products.html">Fossil</a></li>
+										<li><a href="products.html">Maxima</a></li>
+										<li><a href="products.html">Timex</a></li>
+										<li><a href="products.html">TomTom</a></li>
+										<li><a href="products.html">Titan</a></li>
+									</ul>		
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="grid" style="">
+						<a href="#">Women</a>
+						<div class="mepanel" style="display:none;opacity: 1;">
+							<div class="row">
+								<div class="col1 me-one">
+									<h4>Shop</h4>
+									<ul>
+										<li><a href="products.html">New Arrivals</a></li>
+										<li><a href="products.html">Blazers</a></li>
+										<li><a href="products.html">Swem Wear</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Handbags</a></li>
+										<li><a href="products.html">T-Shirts</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">My Shopping Bag</a></li>
+									</ul>
+								</div>
+								<div class="col1 me-one">
+									<h4>Style Zone</h4>
+									<ul>
+										<li><a href="products.html">Shoes</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">Brands</a></li>
+										<li><a href="products.html">Coats</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Trousers</a></li>
+									</ul>
+								</div>
+								<div class="col1 me-one">
+									<h4>Popular Brands</h4>
+									<ul>
+										<li><a href="products.html">499 Store</a></li>
+										<li><a href="products.html">Fastrack</a></li>
+										<li><a href="products.html">Casio</a></li>
+										<li><a href="products.html">Fossil</a></li>
+										<li><a href="products.html">Maxima</a></li>
+										<li><a href="products.html">Timex</a></li>
+										<li><a href="products.html">TomTom</a></li>
+										<li><a href="products.html">Titan</a></li>
+									</ul>	
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="grid" style="">
+						<a href="#">Kids</a>
+						<div class="mepanel" style="display:none;opacity: 1;">
+							<div class="row">
+								<div class="col1 me-one">
+									<h4>Shop</h4>
+									<ul>
+										<li><a href="products.html">New Arrivals</a></li>
+										<li><a href="products.html">Blazers</a></li>
+										<li><a href="products.html">Swem Wear</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Handbags</a></li>
+										<li><a href="products.html">T-Shirts</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">My Shopping Bag</a></li>
+									</ul>
+								</div>
+								<div class="col1 me-one">
+									<h4>Style Zone</h4>
+									<ul>
+										<li><a href="products.html">Shoes</a></li>
+										<li><a href="products.html">Watches</a></li>
+										<li><a href="products.html">Brands</a></li>
+										<li><a href="products.html">Coats</a></li>
+										<li><a href="products.html">Accessories</a></li>
+										<li><a href="products.html">Trousers</a></li>
+									</ul>	
+								</div>
+								<div class="col1 me-one">
+									<h4>Popular Brands</h4>
+									<ul>
+										<li><a href="products.html">499 Store</a></li>
+										<li><a href="products.html">Fastrack</a></li>
+										<li><a href="products.html">Casio</a></li>
+										<li><a href="products.html">Fossil</a></li>
+										<li><a href="products.html">Maxima</a></li>
+										<li><a href="products.html">Timex</a></li>
+										<li><a href="products.html">TomTom</a></li>
+										<li><a href="products.html">Titan</a></li>
+									</ul>	
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="grid" style="">
+						<a href="account.html">Account</a>
+					</li>
+					<li class="grid" style="">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-3 header-right"> 
+			<div class="search-bar">
+				<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+				<a href="搜索">
+					<span class="icon icon-search"></span>
+				</a>
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>

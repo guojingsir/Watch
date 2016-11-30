@@ -1,0 +1,59 @@
+body,html{
+    height: 100%;
+    background: url(../images/bnr-1.jpg) no-repeat; 
+    background-size: cover;   
+}
+.main{
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    padding-top: 80px;
+}
+.container{
+    color: #eee;
+}
+.page-header{
+    font-weight: bold; 
+}
+.logo h1{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+#form1 label{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.container input[type="text"],.container input[type="password"] {
+    width: 90%;
+    margin: 0px;
+    color: #ddd;
+    background: none;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #eee;
+    font-size: 18px;
+    margin-bottom:20px;
+}
+.container input[type=button] {
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    font-size: 1em;
+    padding: 0.5em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.container input[type=button]:hover {
+    background: #73B6E1;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}

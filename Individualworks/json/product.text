@@ -1,0 +1,176 @@
+<!-- 产品开始 -->
+<div class="product">
+	<div class="container">
+		<div class="product-top">
+			<!-- 上半部分展示 -->
+			<div class="product-one">
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p1.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p2.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p3.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p4.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- 下半部分展示 -->
+			<div class="product-one">
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p5.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p6.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p7.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 product-left">
+					<div class="product-main simplecart_shelfItem">
+						<a href="single.html" class="mask">
+							<img class="img-responsive zoom-img" src="images/p0.png" alt="">
+						</a>
+						<div class="product-bottom">
+							<h3>Smart Watches</h3>
+							<p>Explore Now</p>
+							<h4>
+								<a class="item_add" href="javascript:;">
+									<i></i>
+								</a>
+								<span class="item_price">$ 329</span>
+							</h4>
+						</div>
+						<div class="srch">
+							<span>-50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 产品结束 -->

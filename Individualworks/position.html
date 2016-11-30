@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HTML5</title>
+
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html,body {
+		width: 100%;
+		height: 100%;
+	}
+
+	#map {
+		width: 100%;
+		height: 100%;
+	}	
+</style>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7xX1O84mz70cBOjoHKbNWi1fGldqRxG6"></script>
+<script type="text/javascript">
+
+	/*获得用户的地理位置*/
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showMap,errorHandler,{
+				enableHighAccuracy: true,maximumAge: 1000
+				});
+		} else {
+			alert('您的浏览器不支持HTML5的地理定位');
+		}
+	}
+	
+	/*获得地理位置成功*/
+	function showMap(position) {
+		//获得用户的经纬度
+//		var longitude = position.coords.longitude;
+//		var latitude = position.coords.latitude;
+
+		var longitude = 121.511652;
+		var latitude = 38.860561;
+
+//		alert('当前位置：' + longitude + ',' + latitude);
+		// 121.511652,38.860561
+
+		//调用百度地图API
+		var map = new BMap.Map('map');
+		var point = new BMap.Point(longitude,latitude);//创建坐标点		
+		map.centerAndZoom(point,15);//设置中心点和缩放级别
+				
+		var marker = new BMap.Marker(point);//创建标记
+		map.addOverlay(marker);//在地图上加上标记
+//		var label = new BMap.Label("转换前的GPS坐标（错误）",{offset:new BMap.Size(20,-10)});
+//		marker.setLabel(label); //添加百度label
+		  
+		// 添加地图类型控件,默认位于地图右上方
+		map.addControl(new BMap.MapTypeControl());  
+		// 地图平移缩放控件,PC端默认位于地图左上方，它包含控制地图的平移和缩放的功能。移动端提供缩放控件，默认位于地图右下方
+		map.addControl(new BMap.NavigationControl());  
+		// 比例尺控件 ,默认位于地图左下方，显示地图的比例关系 
+		map.addControl(new BMap.ScaleControl());  
+		// 缩略地图控件，默认位于地图右下方，是一个可折叠的缩略地图。
+		map.addControl(new BMap.OverviewMapControl());
+		// 定位控件，针对移动端开发，默认位于地图左下方
+		map.addControl(new BMap.GeolocationControl());
+		// 开启鼠标滚轮缩放
+		map.enableScrollWheelZoom(true);
+
+		//坐标转换完之后的回调函数
+	    translateCallback = function (data) {	    				
+			if(data.status === 0) {
+				var marker = new BMap.Marker(data.points[0]);
+				map.addOverlay(marker);
+				var label = new BMap.Label("转换后的百度坐标（正确）",{offset:new BMap.Size(20,-10)});
+				marker.setLabel(label); //添加百度label
+				map.setCenter(data.points[0]);//设置中心点
+			}
+	    }
+
+		// 转换gps坐标为百度坐标，延迟3000毫秒不是必须的，只是能够看出两个点的不同
+	    setTimeout(function(){
+	        var convertor = new BMap.Convertor();
+	        var pointArr = [];
+	        pointArr.push(point);
+	        convertor.translate(pointArr, 1, 5, translateCallback)
+	    }, 3000);
+		
+	}
+	
+	/*当发生错误时*/
+	function errorHandler(value) {
+		switch (value.code) {
+			case 1:
+				alert('地理位置服务被拒绝，请开启');	
+				break;
+			case 2:
+				alert('地理位置获取失败');
+				break;
+			case 3:
+				alert('获得地理位置时间超时');
+				break;
+			case 4:
+				alert('发生未知错误');
+				break;			
+		}
+	}
+
+	window.onload = function() {
+		getLocation();
+	};
+</script>
+</head>
+
+<body>
+	<div id="map">
+    </div>	
+</body>
+</html>
